@@ -177,6 +177,7 @@ match day:
   case _:
     print("No match")
 """
+"""
 month = 6
 day = 4
 match month:
@@ -186,6 +187,16 @@ match month:
     print("A weekday in May")
   case _:
     print("No match")
+"""
+
+#for loop
+fruits = ["apple", "banana", "orange"]
+for x in fruits:
+  print(x)
+
+for x in "banana":
+  print(x)
+
 
 
 
